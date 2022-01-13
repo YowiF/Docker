@@ -1,0 +1,4 @@
+Tareas:
+	Dani: Contenedores e imagenes
+
+	Yoel: Organización del repositorio GitHub y documentación
