@@ -20,9 +20,9 @@ docker run -d -p 8181:80 --name servidor_web nginx
 docker ps -as
 ```
 
-![image-20220113172658090](C:\Users\yoelf\AppData\Roaming\Typora\typora-user-images\image-20220113172658090.png)
+![image-20220113172658090](inicial1.1.jpg)
 
-![image-20220113172718999](C:\Users\yoelf\AppData\Roaming\Typora\typora-user-images\image-20220113172718999.png)
+![image-20220113172718999](inicial1.2.jpg)
 
 
 
@@ -30,7 +30,7 @@ docker ps -as
 
 Pantallazo donde se vea el acceso al servidor web utilizando un navegador web (recuerda que tienes que acceder a la ip del ordenador donde tengas instalado docker).
 
-![image-20220113172949652](C:\Users\yoelf\AppData\Roaming\Typora\typora-user-images\image-20220113172949652.png)
+![image-20220113172949652](inicial2.1.jpg)
 
 
 
@@ -42,7 +42,7 @@ Pantallazo donde se vean las imágenes que tienes en tu registro local.
 docker images
 ```
 
-![image-20220113173037087](C:\Users\yoelf\AppData\Roaming\Typora\typora-user-images\image-20220113173037087.png)
+![image-20220113173037087](inicial3.1.jpg)
 
 
 
@@ -56,4 +56,4 @@ docker rm servidor_web
 docker ps -a
 ```
 
-![image-20220113173337683](C:\Users\yoelf\AppData\Roaming\Typora\typora-user-images\image-20220113173337683.png)
+![image-20220113173337683](inicial4.1.jpg)
