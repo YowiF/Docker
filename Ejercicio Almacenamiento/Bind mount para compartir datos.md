@@ -1,17 +1,15 @@
 ---
-@auth
-or Yoel Fernández Suárez y Daniel García Castro
+Title: Ejercicio Almancenamiento. Bind Mount para Compartir Datos.
+Author: Yoel Fernández Suárez y Daniel García Castro
 ---
 
-# 			EJERCICIO ALMACENAMIENTO
+# 			Ejercicio Almancenamiento. Bind Mount para Compartir Datos
 
 [TOC]
 
+## Apartado 1.
 
-
-#### Apartado 1:
-
-Una vez hecho esto arrancar dos contenedores basados en la imagen php:7.4- apache que hagan un bind mount de la carpeta saludo en la carpeta /var/www/html del contenedor. Uno de ellos vamos a acceder con el puerto 8181 y el otro con el 8282. Y su nombres serán c1 y c2 .
+Pantallazo con la orden correspondiente para arrancar el contenedor c1 (puerto 8181) realizando el bind mount solicitado:
 
 ```bash
 sudo docker run -d --name c1 -v~/saludo:/var/www/html -p 8181:80 php:7.4-apache
@@ -19,32 +17,48 @@ sudo docker run -d --name c1 -v~/saludo:/var/www/html -p 8181:80 php:7.4-apache
 
 ![bind1](bind1.jpg)
 
+## Apartado 2.
+
+Pantallazo con la orden correspondiente para arrancar el contenedor c2 (puerto 8282) realizando el bind mount solicitado:
+
+```bash
+sudo docker run -d --name c2 -v~/saludo:/var/www/html -p 8282:80 php:7.4-apache
+```
+
 ![bind2](bind2.jpg)
 
-![bind_(por si quieres usarla)](bind_(por si quieres usarla).jpg)![bind2](C:\Users\yoelf\Downloads\bind2.jpg)
+## Apartado 3.
 
+Pantallazo donde se pueda apreciar que accediendo a c1 se puede ver el contenido de 'index.html':
 
+![bind3](bind3.jpg)
 
-![bind4](bind4.jpg)![bind3](bind3.jpg)
+## Apartado 4.
 
-#### Apartado 2:
+Pantallazo donde se pueda apreciar que accediendo a c2 se puede ver el contenido de 'index.html':
 
-Modifica el contenido del fichero ~/saludo/index.html .
+![bind3](bind3.jpg)
+
+## Apartado 5.
+
+Otros dos pantallazos donde se vea el acceso al fichero index.html después de modificarlo:
 
 ![bind5](bind5.jpg)
 
+
+
 ![bind6](bind6.jpg)
 
-#### Apartado 3:
+## Apartado 6.
 
-Borra los contenedores
+Borrar los dos contenedores. Mostrar que se han borrado:
 
 ```bash
 sudo docker stop c1
 sudo docker stop c2
 sudo docker rm c1
 sudoo docker rm c2
+sudo docker ps -a
 ```
 
 ![bind7](bind7.jpg)
-
