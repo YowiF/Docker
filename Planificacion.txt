@@ -1,4 +1,50 @@
 Tareas:
-	Dani: Contenedores e imagenes
+	Dani: Ejercicio_inicial,Ejercicio_almacenamiento,Ejercicio-redes,Crear imagenes con Dockerfile
 
-	Yoel: Organización del repositorio GitHub y documentación
+	Yoel: Organización del repositorio GitHub , documentación con markdown(Typora),Ejercicio:Trabajo con imagenes
+	
+Puestos:
+
+	Yoel:Administrador del repositorio
+	Dani:Colaborador
+	
+Plazos esperados:
+
+Comienzo del proyecto: 13 de enero 2022
+
+Ejercicio_Inicial: 14 de enero 2022(1 día).
+
+Ejercicio_trabajoconimagenes:20 de enero 2022(7 días)
+
+Ejercicio_almacenamiento:23 de enero 2022(10 días)
+
+Ejercicio_redes:26 de enero 2022(13 dias)
+
+Ejercicio creación de imágenes con Dockerfile: 29 de enero de 2022(16 días)
+
+Creación de la documentación con markdown: 30 de enero de 2022(17 días)
+
+Organización  y repaso final del repositorio GitHub: 31 de enero 2022(18 días)
+
+Preparación de la presentación en Powerpoint: 1 de febrero de 2022(19 días)
+
+Plazos reales:
+
+Comienzo del proyecto: 13 de enero 2022
+
+Ejercicio_Inicial: 15 de enero 2022(2 días).
+
+Ejercicio_trabajoconimagenes:31 de enero 2022(18 días)
+
+Ejercicio_almacenamiento:26 de enero 2022(13 días)
+
+Ejercicio_redes:31 de enero 2022(18 días)
+
+Ejercicio creación de imágenes con Dockerfile: 1 de febrero de 2022(19 días)
+
+Creación de la documentación con markdown: 1 de febrero de 2022(19 días)
+
+Organización  y repaso final del repositorio GitHub: 1 de febrero 2022(19 días)
+
+Preparación de la presentación en Powerpoint: 1 de febrero de 2022(19 días)
+
