@@ -86,6 +86,6 @@ Comprobar que no se puede eliminar el contenedor creado:
 sudo docker rm bbdd
 ```
 
-![base de datos 4](base de datos 4.jpg)
+![basededatos4](basededatos4.jpg)
 
 >>>
