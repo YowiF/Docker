@@ -3,8 +3,6 @@ Title: Ejercicio Redes. Despliegue de contenedores en red: Adminer y MariaDB.
 Author: Yoel Fernández Suárez y Daniel García Castro
 ---
 
-#  							
-
 # 									Ejercicio Redes. Despliegue de contenedores en red: Adminer y MariaDB.
 
 [TOC]
