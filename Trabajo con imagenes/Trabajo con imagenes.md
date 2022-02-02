@@ -83,7 +83,7 @@ sudo docker run -d --name phpmyadmin -e PMA_ARBITRARY=1 -p 8080:80 --network mir
 Comprobar que no se puede eliminar el contenedor creado:
 
 ```bash
-sudo docker rm bbdd
+sudo docker rmi bbdd
 ```
 
 ![basededatos4](basededatos6.jpg)
