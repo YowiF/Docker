@@ -44,9 +44,7 @@ docker exec -it web bash
 echo "<?php echo date('F'); ?>" > mes.php
 ```
 
-
-
-![imagenes1.3.1](imagenes1.2.jpg)
+![imagenes1.3.1](imagenes1.3.1.jpg)
 
 ![imagenes1.3.2](imagenes1.3.2.jpg)
 
